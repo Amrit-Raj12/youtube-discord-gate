@@ -59,7 +59,7 @@ export default function VerificationGate() {
                 </p>
                 <button
                   onClick={handleSubscribeClick}
-                  className="w-full bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-4 rounded-lg transition duration-200 flex items-center justify-center gap-2"
+                  className="w-full bg-red-600 hover:bg-red-700 text-white font-semibold py-3 px-4 rounded-lg transition duration-200 flex items-center justify-center gap-2 cursor-pointer"
                 >
                   <Youtube className="w-5 h-5" />
                   Subscribe on YouTube
@@ -88,9 +88,9 @@ export default function VerificationGate() {
                 </p>
                 <button
                   onClick={handleVerifyClick}
-                  className="w-full bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-4 rounded-lg transition duration-200"
+                  className="w-full bg-purple-600 hover:bg-purple-700 text-white font-semibold py-3 px-4 rounded-lg transition duration-200 cursor-pointer"
                 >
-                  I've Subscribed!
+                 Subscribed!
                 </button>
               </div>
             )}
