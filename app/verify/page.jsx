@@ -84,7 +84,7 @@ export default function VerificationGate() {
                   <span className="font-bold text-lg text-gray-800">Step 2</span>
                 </div>
                 <p className="text-gray-600 mb-4">
-                  After subscribing, click here to reveal the Discord link
+                  Click to reveal the Discord link
                 </p>
                 <button
                   onClick={handleVerifyClick}
